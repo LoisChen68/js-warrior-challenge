@@ -50,8 +50,8 @@ Warriors can cast magic when fighting enemies. The `castMagic` function takes
 in an integer `manaCost`, reduces the warrior's `mana` by the given amount,
 and returns the damage dealt.
 
-If casting of magic is successful, the damage dealth is two times the `manaCost`.
-For example, if `manaCost` is 15, the damage is 30.
+If casting of magic is successful, the damage dealt is **two times the `manaCost`**.
+\For example, if `manaCost` is 15, the damage is 30.
 
 If the warrior has sufficient mana to cast the magic, the warrior's mana will reduce
 by the given `manaCost`. This function needs to return the damage dealt.
@@ -72,9 +72,10 @@ Otherwise, `isAlive` should return `true`.
 ## Completing the Challenge
 
 1. First, fork this repository on GitHub to your own account
-2. Next, install the dependencies using `npm install --save-dev`
-3. Run the test suite, and all test cases should fail: `npx jest`
-4. Start implementing all of the functions as specified above
+2. Clone your forked repository to your computer
+3. Next, install the dependencies using `npm install --save-dev`
+4. Run the test suite, and all test cases should fail: `npx jest`
+5. Start implementing all of the functions as specified above
 
 Once you have completed all the functions, you should run the test suite with
 `npx jest` to verify that all your functions are working correctly.
@@ -89,5 +90,3 @@ You are only allowed to edit `warrior.js`. Editing any of other files is
 considered to be failing the challenge.
 
 Feel free to read any other files in this project.
-
-
